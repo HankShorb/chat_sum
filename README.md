@@ -37,9 +37,6 @@ The fine-tuned model weights are not included do to file size contraints on Gith
 
 *   Different prompt structures were tested on the validation set to assess their effectiveness in guiding the base GPT-2 model for summarization.
 *   ROUGE scores were computed for each prompt type to compare their performance.
-
-[Insert the ROUGE scores for the GPT-2 prompt engineering experiments here - specify which prompt performed best]
-
 *   The best performing GPT-2 prompt structure was then evaluated on the test set.
 
 {'rouge1': np.float64(0.12352745552688203), 'rouge2': np.float64(0.008809929787377655), 'rougeL': np.float64(0.08855891531950373), 'rougeLsum': np.float64(0.08989666564804391)}
